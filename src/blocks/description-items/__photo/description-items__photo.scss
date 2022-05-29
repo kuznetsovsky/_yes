@@ -1,0 +1,13 @@
+.description-items__photo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .description-items__photo {
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+  }
+}

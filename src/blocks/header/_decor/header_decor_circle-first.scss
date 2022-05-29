@@ -1,0 +1,28 @@
+.header_decor_circle-first::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 9px solid $default-blue;
+  z-index: 3;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .header_decor_circle-first::before {
+    bottom: 125px;
+    left: -183px;
+    width: 85px;
+    height: 85px;
+    border: 15px solid $default-blue;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .header_decor_circle-first::before {
+    bottom: 100px;
+    left: -105px;
+  }
+}

@@ -1,0 +1,17 @@
+@media screen and (min-width: $screen-tablet) {
+  .description_decore_circle {
+    position: relative;
+  }
+
+  .description_decore_circle::before {
+    content: "";
+    position: absolute;
+    top: -38px;
+    right: -33px;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 15px solid $default-blue;
+    z-index: 3;
+  }
+}

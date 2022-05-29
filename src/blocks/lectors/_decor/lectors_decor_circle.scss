@@ -1,0 +1,22 @@
+@media screen and (min-width: $screen-tablet) {
+  .lectors_decor_circle {
+    position: relative;
+  }
+
+  .lectors_decor_circle::before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 162px;
+    left: -124px;
+    background-color: $default-blue;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .lectors_decor_circle::before {
+    top: 143px;
+  }
+}

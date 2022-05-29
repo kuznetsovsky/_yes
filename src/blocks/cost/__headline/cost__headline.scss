@@ -1,0 +1,33 @@
+.cost__headline {
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .cost__headline {
+    font-size: 30px;
+    position: relative;
+  }
+
+  .cost__headline::after {
+    content: "?";
+    position: absolute;
+    bottom: -105px;
+    right: 70px;
+    z-index: -1;
+
+    @include fonts-default(#e2e2e2, 200px, 1.2, 700);
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .cost__headline {
+    font-size: 45px;
+    position: relative;
+  }
+
+  .cost__headline::after {
+    font-size: 300px;
+    bottom: -155px;
+    right: 0;
+  }
+}

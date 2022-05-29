@@ -1,0 +1,122 @@
+/* Peppermint required styles + default appearance styles */
+
+.peppermint.peppermint-active {
+    position: relative;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.peppermint.peppermint-active .peppermint-slides {
+    position: relative;
+    overflow: hidden; /* clearfix */
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+.peppermint.peppermint-active .peppermint-slides > * {
+    float: left;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+}
+
+.peppermint.peppermint-active .peppermint-slides a:active,
+.peppermint.peppermint-active .peppermint-slides a:active img {
+    outline: none;
+}
+
+.peppermint.peppermint-active,
+.peppermint.peppermint-active .peppermint-dots,
+.peppermint.peppermint-active .peppermint-slides,
+.peppermint.peppermint-active .peppermint-slides > * {
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.peppermint.peppermint-mouse .peppermint-slides {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}
+
+.peppermint.peppermint-mouse.peppermint-drag .peppermint-slides * {
+    cursor: move;
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+    cursor: grabbing;
+}
+
+/* dots */
+
+ul.peppermint-dots {
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.peppermint.peppermint-active ul.peppermint-dots {
+    @media screen and (min-width: $screen-tablet) {
+        margin: 60px 0 20px 0;
+    }
+}
+
+ul.peppermint-dots > li {
+    display: inline-block;
+    position: relative;
+    padding: 0.5em 0.6em;
+    margin: 0 10px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    /* ie7 fallback */
+    *display: inline;
+    *zoom: 1;
+}
+
+ul.peppermint-dots > li.peppermint-mouse-clicked,
+ul.peppermint-dots > li:active {
+    outline: 0;
+}
+
+ul.peppermint-dots > li > span {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #e9e9e9;
+}
+
+ul.peppermint-dots > li.peppermint-active-dot > span {
+    margin: -8px 0 0 -8px;
+    width: 15px;
+    height: 15px;
+    background-color: $default-red;
+    box-shadow: 0px 4px 10px 0px rgba(245, 17, 44, 0.58);
+}

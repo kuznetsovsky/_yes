@@ -1,0 +1,23 @@
+@media screen and (min-width: $screen-tablet) {
+  .description_decore_range {
+    position: relative;
+  }
+
+  .description_decore_range::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 63px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: $default-blue;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .description_decore_range::before {
+    top: 215px;
+    left: 50px;
+  }
+}

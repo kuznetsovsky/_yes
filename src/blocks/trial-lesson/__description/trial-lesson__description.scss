@@ -1,0 +1,22 @@
+.trial-lesson__description {
+  margin: 0;
+  margin-bottom: 20px;
+
+  @include fonts-default($text-color-black-d, 14px, 18px, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .trial-lesson__description {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .trial-lesson__description {
+    margin-bottom: 100px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

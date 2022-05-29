@@ -1,0 +1,18 @@
+@media screen and (min-width: $screen-tablet) {
+  .header-content-wrapper_decor_wave::before {
+    content: "";
+    position: absolute;
+    bottom: 90px;
+    right: -60px;
+    width: 145px;
+    height: 19px;
+    background: url('../img/sprites.png') -10px -10px;
+    z-index: 3;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .header-content-wrapper_decor_wave::before {
+    right: 15px;
+  }
+}

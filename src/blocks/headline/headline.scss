@@ -1,0 +1,19 @@
+.headline {
+  text-transform: uppercase;
+  margin: 0;
+  position: relative;
+
+  @include fonts-default($text-color-black-d, 24px, 1.2, 700);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .headline {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .headline {
+    font-size: 45px;
+  }
+}

@@ -1,0 +1,23 @@
+.blockquote__author {
+  margin: 0;
+  display: block;
+  margin-bottom: 20px;
+
+  @include fonts-default($text-color-black-d, 14px, 18px, 700);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .blockquote__author {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .blockquote__author {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

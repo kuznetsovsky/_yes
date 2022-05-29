@@ -1,0 +1,12 @@
+.logo {
+  margin-top: 25px;
+  width: 63px;
+  height: 23px;
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .logo {
+    width: 99px;
+    height: 36px;
+  }
+}

@@ -1,0 +1,16 @@
+.headline_bottom-line_red::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 64px;
+  height: 7px;
+  background-color: $default-red;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .headline_bottom-line_red::before {
+    left: 32px;
+  }
+}

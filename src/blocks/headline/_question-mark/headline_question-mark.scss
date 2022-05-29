@@ -1,0 +1,26 @@
+.headline_question-mark::before {
+  content: "?";
+  position: absolute;
+  bottom: -90px;
+  right: 0;
+  left: 0;
+  margin-left: 174px;
+  z-index: -1;
+
+  @include fonts-default(#e2e2e2, 200px, 1.2, 700);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .headline_question-mark::before {
+    bottom: -70px;
+    margin-left: 170px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .headline_question-mark::before {
+    bottom: -90px;
+    margin-left: 260px;
+    font-size: 300px;
+  }
+}

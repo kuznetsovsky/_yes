@@ -1,0 +1,20 @@
+.situations-items__description {
+  margin: 0;
+  margin-bottom: 20px;
+
+  @include fonts-default($text-color-black-l, 14px, 1.2, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .situations-items__description {
+    margin: 0;
+    font-size: 16px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .situations-items__description {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,17 @@
+@media screen and (min-width: $screen-tablet) {
+  .trial-lesson_decor_circle-three {
+    position: absolute;
+    top: 107px;
+    right: -150px;
+    width: 10px;
+    height: 10px;
+    background-color: $default-blue;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .trial-lesson_decor_circle-three {
+    right: -76px;
+  }
+}

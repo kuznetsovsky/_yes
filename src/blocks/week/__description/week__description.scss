@@ -1,0 +1,22 @@
+.week__description {
+  margin: 0;
+  margin-bottom: 30px;
+
+  @include fonts-default($text-color-black-d, 14px, 18px, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .week__description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .week__description {
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,21 @@
+.footer__address {
+  margin: 0;
+  margin-bottom: 20px;
+
+  @include fonts-default($text-color-black-d, 14px, 24px, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .footer__address {
+    margin: 0;
+    line-height: 24px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .footer__address {
+    display: none;
+    font-size: 18px;
+  }
+}

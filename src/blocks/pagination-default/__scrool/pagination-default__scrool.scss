@@ -1,0 +1,12 @@
+@media screen and (min-width: $screen-tablet) {
+  .pagination-default__scrool {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 7px;
+    border-radius: 4px;
+    background-color: $default-red;
+    box-shadow: 0 4px 10px 0 rgba(245, 17, 44, 0.58);
+  }
+}

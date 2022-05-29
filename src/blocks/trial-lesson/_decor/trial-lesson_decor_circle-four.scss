@@ -1,0 +1,18 @@
+@media screen and (min-width: $screen-tablet) {
+  .trial-lesson_decor_circle-four {
+    position: absolute;
+    top: 119px;
+    right: -43px;
+    width: 23px;
+    height: 23px;
+    background-color: $default-blue;
+    border-radius: 50%;
+  }
+}
+
+
+@media screen and (min-width: $screen-desktop) {
+  .trial-lesson_decor_circle-four {
+    right: 36px;
+  }
+}

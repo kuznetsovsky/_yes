@@ -1,0 +1,10 @@
+.situations-items {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .situations-items {
+    position: relative;
+    margin-bottom: 0;
+  }
+}

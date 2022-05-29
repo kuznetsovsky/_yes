@@ -1,0 +1,7 @@
+@media screen and (min-width: $screen-tablet) {
+  .description-items__wrapper_decor-text_just::before {
+    content: "просто";
+    top: -35px;
+    right: -60px;
+  }
+}

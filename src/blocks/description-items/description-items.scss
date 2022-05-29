@@ -1,0 +1,9 @@
+@media screen and (min-width: $screen-tablet) {
+  .description-items {
+    margin-bottom: 80px;
+  }
+
+  .description-items:last-child {
+    margin-bottom: 0;
+  }
+}

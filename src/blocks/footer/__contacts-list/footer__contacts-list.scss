@@ -1,0 +1,19 @@
+.footer__contacts-list {
+  text-align: center;
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .footer__contacts-list {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .footer__contacts-list {
+    display: block;
+  }
+}

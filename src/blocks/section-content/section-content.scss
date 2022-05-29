@@ -1,0 +1,19 @@
+.section-content {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .section-content {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .section-content {
+    max-width: 1170px;
+  }
+}

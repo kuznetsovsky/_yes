@@ -1,0 +1,19 @@
+.header-content-wrapper__description {
+  margin-bottom: 15px;
+
+  @include fonts-default($text-color-black-d, 14px, 1.286em, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .header-content-wrapper__description {
+    margin-bottom: 75px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .header-content-wrapper__description {
+    margin-bottom: 100px;
+    font-size: 18px;
+  }
+}

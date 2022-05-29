@@ -1,0 +1,18 @@
+.contacts-list {
+  @include list-reset();
+
+  text-align: right;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .contacts-list {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .contacts-list {
+    margin-top: 30px;
+  }
+}

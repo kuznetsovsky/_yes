@@ -1,0 +1,17 @@
+@media screen and (min-width: $screen-tablet) {
+  .header {
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 1300px 261px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .header {
+    margin-bottom: 60px;
+    background-image: url("../img/header-bg-large.png");
+    background-size: 1889px 352px;
+    background-position: center 270px;
+  }
+}

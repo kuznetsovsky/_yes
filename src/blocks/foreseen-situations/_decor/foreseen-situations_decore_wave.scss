@@ -1,0 +1,18 @@
+@media screen and (min-width: $screen-tablet) {
+  .foreseen-situations_decore_wave::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: -40px;
+    width: 145px;
+    height: 19px;
+    background: url('../img/sprites.png') -10px -10px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .foreseen-situations_decore_wave::after {
+    bottom: -130px;
+    right: 231px;
+  }
+}

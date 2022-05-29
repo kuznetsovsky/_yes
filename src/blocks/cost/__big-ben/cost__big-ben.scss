@@ -1,0 +1,25 @@
+.cost__big-ben {
+  max-width: 100%;
+  height: auto;
+  margin-left: -30px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .cost__big-ben {
+    max-width: none;
+    position: absolute;
+    width: 745px;
+    height: 1078px;
+    top: 0;
+    left: -635px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .cost__big-ben {
+    left: -375px;
+  }
+}

@@ -1,0 +1,28 @@
+.foreseen-situations-list {
+  position: relative;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .foreseen-situations-list::before {
+    content: "";
+    position: absolute;
+    top: -250px;
+    right: -430px;
+    background-image: url("../img/foreseen-situations-bg.png");
+    background-size: 611px 365px;
+    background-repeat: no-repeat;
+    width: 611px;
+    height: 365px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .foreseen-situations-list::before {
+    top: -310px;
+    right: -430px;
+    background-image: url("../img/foreseen-situations-bg-large.png");
+    background-size: 908px 608px;
+    width: 908px;
+    height: 608px;
+  }
+}

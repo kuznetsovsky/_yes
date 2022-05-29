@@ -1,0 +1,47 @@
+.foreseen-situations-list__headline {
+  margin: 0;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  z-index: 1;
+
+  @include fonts-default($text-color-black-d, 14px, 1.2, 700);
+}
+
+.foreseen-situations-list__headline::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translateX(-50%);
+  background-color: $default-bg-grey;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .foreseen-situations-list__headline {
+    font-size: 16px;
+  }
+
+  .foreseen-situations-list__headline::before {
+    top: 5px;
+    left: 0;
+    transform: none;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .foreseen-situations-list__headline {
+    font-size: 18px;
+  }
+
+  .foreseen-situations-list__headline::before {
+    top: 5px;
+    left: -24px;
+    transform: none;
+  }
+}

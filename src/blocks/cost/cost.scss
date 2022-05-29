@@ -1,0 +1,19 @@
+.cost {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .cost {
+    padding-top: 40px;
+    padding-bottom: 280px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .cost {
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+}

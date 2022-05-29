@@ -1,0 +1,12 @@
+@media screen and (min-width: $screen-tablet) {
+  .trail-lesson__content {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .trail-lesson__content {
+    padding-top: 170px;
+    margin-left: 38px;
+  }
+}

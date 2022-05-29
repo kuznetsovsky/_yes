@@ -1,0 +1,18 @@
+.footer__school-name {
+  margin: 0;
+
+  @include fonts-default($text-color-black-d, 14px, 24px, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .footer__school-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .footer__school-name {
+    font-size: 18px;
+  }
+}

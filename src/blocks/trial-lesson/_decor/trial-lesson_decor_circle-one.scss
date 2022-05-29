@@ -1,0 +1,16 @@
+.trial-lesson_decor_circle-one {
+  position: absolute;
+  left: 30px;
+  bottom: -130px;
+  width: 23px;
+  height: 23px;
+  background-color: $default-blue;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .trial-lesson_decor_circle-one {
+    left: 300px;
+    bottom: -90px;
+  }
+}

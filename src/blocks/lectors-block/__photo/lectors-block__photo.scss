@@ -1,0 +1,11 @@
+.lectors-block__photo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .lectors-block__photo {
+    margin-bottom: 30px;
+  }
+}

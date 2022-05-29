@@ -1,0 +1,16 @@
+.headline_size_large {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .headline_size_large {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .headline_size_large {
+    font-size: 45px;
+  }
+}

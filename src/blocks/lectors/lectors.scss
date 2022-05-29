@@ -1,0 +1,27 @@
+.lectors {
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .lectors::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 237px;
+    left: 0;
+    background-color: $default-bg-grey;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .lectors {
+    padding-top: 150px;
+  }
+
+  .lectors::before {
+    width: 73.75%;
+    top: 387px;
+  }
+}

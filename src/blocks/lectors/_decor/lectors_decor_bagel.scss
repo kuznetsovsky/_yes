@@ -1,0 +1,25 @@
+@media screen and (min-width: $screen-tablet) {
+  .lectors_decor_bagel {
+    position: relative;
+  }
+
+  .lectors_decor_bagel::before {
+    content: "";
+    position: absolute;
+    width: 434px;
+    height: 434px;
+    border: 77px solid $default-bg-grey;
+    bottom: 130px;
+    right: -230px;
+    background-color: $default-bg-white;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .lectors_decor_bagel::before {
+    top: -100px;
+    bottom: auto;
+    right: -237px;
+  }
+}

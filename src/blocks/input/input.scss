@@ -1,0 +1,13 @@
+.input {
+    width: 100%;
+    border: 1px solid #bababa;
+    color: #bababa;
+    padding: 15px;
+    border-radius: 35px;
+   
+    @media screen and (min-width: $screen-desktop) {
+        padding: 20px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+}

@@ -1,0 +1,22 @@
+.header__bus {
+  max-width: 100%;
+  padding: 0 10% 10%;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .header__bus {
+    width: 365px;
+    height: 488px;
+    padding: 0;
+    position: absolute;
+    top: -45px;
+    left: -60px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .header__bus {
+    width: 608px;
+    height: 794px;
+  }
+}

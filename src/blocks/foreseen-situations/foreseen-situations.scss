@@ -1,0 +1,15 @@
+.foreseen-situations {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .foreseen-situations {
+    padding-top: 125px;
+    padding-bottom: 150px;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+  }
+}

@@ -1,0 +1,15 @@
+.headline_size_small {
+  font-size: 18px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .headline_size_small {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .headline_size_small {
+    font-size: 38px;
+  }
+}

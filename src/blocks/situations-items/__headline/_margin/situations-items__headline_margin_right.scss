@@ -1,0 +1,9 @@
+.situations-items__headline_margin_right {
+  margin-left: -2%;
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .situations-items__headline_margin_right {
+    margin-left: -12%;
+  }
+}

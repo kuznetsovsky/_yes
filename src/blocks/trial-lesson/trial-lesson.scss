@@ -1,0 +1,12 @@
+.trial-lesson {
+  padding-bottom: 145px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .trial-lesson {
+    text-align: left;
+    padding-top: 50px;
+  }
+}

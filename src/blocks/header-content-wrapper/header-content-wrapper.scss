@@ -1,0 +1,16 @@
+.header-content-wrapper {
+  text-align: center;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .header-content-wrapper {
+    text-align: left;
+    padding-top: 105px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .header-content-wrapper {
+    padding-top: 220px;
+  }
+}

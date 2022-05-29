@@ -1,0 +1,28 @@
+.trial-lesson__image {
+  display: block;
+  margin-bottom: 35px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .trial-lesson__image {
+    position: absolute;
+    top: 0;
+    left: -250px;
+    width: 580px;
+    max-width: none;
+    height: 360px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .trial-lesson__image {
+    top: 0;
+    left: -255px;
+    width: 872px;
+    height: 549px;
+  }
+}

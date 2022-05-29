@@ -1,0 +1,23 @@
+.header_decor_circle-second::after {
+  content: "";
+  position: absolute;
+  top: 28px;
+  right: 18px;
+  width: 23px;
+  height: 23px;
+  background-color: $default-blue;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .header_decor_circle-second::after {
+    top: 54px;
+    right: -250px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .header_decor_circle-second::after {
+    right: -370px;
+  }
+}

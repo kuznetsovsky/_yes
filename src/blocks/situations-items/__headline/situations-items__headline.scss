@@ -1,0 +1,17 @@
+.situations-items__headline {
+  margin: 0;
+  margin-bottom: 15px;
+
+  @include fonts-default($text-color-black-d, 48px, 1.2, 700);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .situations-items__headline {
+    margin-bottom: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    z-index: 3;
+    transform: translateX(-50%);
+  }
+}

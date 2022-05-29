@@ -1,0 +1,6 @@
+.page {
+  min-width: 320px;
+  background-color: $default-bg-white;
+
+  @include fonts-default($text-color-black-d, 14px, 1.286em, 300);
+}

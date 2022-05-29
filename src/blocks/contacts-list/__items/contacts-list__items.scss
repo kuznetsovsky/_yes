@@ -1,0 +1,18 @@
+@media screen and (min-width: $screen-tablet) {
+  .contacts-list__items {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  .contacts-list__items:first-child {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .contacts-list__items {
+    font-size: 18px;
+    margin-left: 35px;
+  }
+}

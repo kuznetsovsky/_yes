@@ -1,0 +1,18 @@
+.blockquote__photo {
+  margin-bottom: 30px;
+  width: 156px;
+  height: 156px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .blockquote__photo {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .blockquote__photo {
+    width: 165px;
+    height: 165px;
+  }
+}

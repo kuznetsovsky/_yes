@@ -1,0 +1,17 @@
+.foreseen-situations-list__description {
+  margin: 0;
+
+  @include fonts-default($text-color-black-d, 14px, 1.2, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .foreseen-situations-list__description {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .foreseen-situations-list__description {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,24 @@
+.description-items__text {
+  margin: 0;
+  margin-bottom: 25px;
+
+  @include fonts-default($text-color-black-d, 14px, 18px, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .description-items__text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    z-index: 3;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .description-items__text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

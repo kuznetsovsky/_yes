@@ -1,0 +1,13 @@
+.lectors-block__name {
+  margin: 0;
+  margin-bottom: 15px;
+
+  @include fonts-default($text-color-black-d, 14px, 1.2, 700);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .lectors-block__name {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,7 @@
+@media screen and (min-width: $screen-tablet) {
+  .description-items__wrapper_decor-text_communion::before {
+    content: "общение";
+    top: -35px;
+    left: -75px;
+  }
+}

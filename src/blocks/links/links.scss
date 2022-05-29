@@ -1,0 +1,49 @@
+.links {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  font-family: $font-family;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+
+  @include fonts-default($default-red, 14px, 1.286em, 300);
+}
+
+.links:hover,
+.links:focus {
+  text-decoration: none;
+  color: $default-red;
+}
+
+.links::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: $default-red;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.links:hover::before,
+.links:focus::before {
+  opacity: 1;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .links {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .links {
+    font-size: 18px;
+  }
+}

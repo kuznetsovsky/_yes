@@ -1,0 +1,33 @@
+.situations {
+  background-color: $default-bg-grey;
+  background-image: url("../img/situation-bg-top.png"), url("../img/situation-bg-bottom.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 768px 55px, 768px 55px;
+  background-position: top center, bottom center;
+  padding: 90px 0;
+  text-align: center;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .situations {
+    text-align: left;
+    padding-top: 125px;
+    padding-bottom: 180px;
+    background-image: url("../img/situation-bg-top-medium.png"), url("../img/situation-bg-bottom-medium.png");
+    background-size: 1200px 80px, 1200px 80px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .situations {
+    padding-top: 180px;
+    padding-bottom: 230px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .situations {
+    background-image: url("../img/situation-bg-top-large.png"), url("../img/situation-bg-bottom-large.png");
+    background-size: 1920px 380px, 1920px 380px;
+  }
+}

@@ -1,0 +1,16 @@
+@media screen and (min-width: $screen-desktop) {
+  .description_decore_wave {
+    position: relative;
+  }
+
+  .description_decore_wave::before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: -20px;
+    width: 66px;
+    height: 34px;
+    background: url("../img/sprites.png") -10px -49px;
+    z-index: 3;
+  }
+}

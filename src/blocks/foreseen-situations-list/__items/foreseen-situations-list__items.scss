@@ -1,0 +1,9 @@
+.foreseen-situations-list__items {
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .foreseen-situations-list__items {
+    margin-bottom: 0;
+  }
+}

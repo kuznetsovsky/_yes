@@ -1,0 +1,35 @@
+.description {
+  text-align: center;
+  background-color: $default-bg-grey;
+  background-image: url("../img/description-top-bg.png"), url("../img/description-bottom-bg.png");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 768px 104px, 768px 104px;
+  background-position: top center, bottom center;
+  padding: 85px 0 104px;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .description {
+    position: relative;
+    text-align: left;
+    background-color: $default-bg-grey;
+    background-image: url("../img/description-top-bg-medium.png"), url("../img/description-bottom-bg-medium.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1200px 360px, 1200px 539px;
+    background-position: top center, bottom center;
+    padding: 40px 0 340px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .description {
+    background-color: $default-bg-grey;
+    background-image: url("../img/description-top-bg-large.png"), url("../img/description-bottom-bg-large.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1920px 720px, 1920px 978px;
+    background-position: top center, bottom center;
+    padding: 64px 0 500px;
+  }
+}

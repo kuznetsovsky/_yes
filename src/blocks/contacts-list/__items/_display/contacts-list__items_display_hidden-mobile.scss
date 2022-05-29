@@ -1,0 +1,9 @@
+.contacts-list__items_display_hidden-mobile {
+  display: none;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .contacts-list__items_display_hidden-mobile {
+    display: inline-block;
+  }
+}

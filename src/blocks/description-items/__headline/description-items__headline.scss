@@ -1,0 +1,39 @@
+.description-items__headline {
+  display: inline-block;
+  margin-bottom: 15px;
+  position: relative;
+
+  @include fonts-default($text-color-black-d, 14px, 18px, 700);
+}
+
+.description-items__headline::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: -25px;
+  width: 13px;
+  height: 9px;
+  background: url('../img/sprites.png') -96px -49px;
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .description-items__headline {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .description-items__headline::before {
+    top: 7px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .description-items__headline {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .description-items__headline::before {
+    top: 9px;
+  }
+}

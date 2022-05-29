@@ -1,0 +1,23 @@
+@media screen and (min-width: $screen-tablet) {
+  .lectors_decor_wave {
+    position: relative;
+  }
+
+  .lectors_decor_wave::after {
+    content: "";
+    position: absolute;
+    bottom: 280px;
+    right: -35px;
+    width: 66px;
+    height: 34px;
+    background: url('../img/sprites.png') -10px -49px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .lectors_decor_wave::after {
+    top: 160px;
+    right: -252px;
+    bottom: auto;
+  }
+}

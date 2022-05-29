@@ -1,0 +1,21 @@
+.week__number {
+  margin-bottom: 15px;
+  display: block;
+
+  @include fonts-default($text-color-black-d, 14px, 18px, 700);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .week__number {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .week__number {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

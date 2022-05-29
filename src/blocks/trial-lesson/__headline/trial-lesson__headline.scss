@@ -1,0 +1,9 @@
+.trial-lesson__headline {
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .trial-lesson__headline {
+    margin-bottom: 60px;
+  }
+}

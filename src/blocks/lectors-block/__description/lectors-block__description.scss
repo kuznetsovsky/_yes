@@ -1,0 +1,17 @@
+.lectors-block__description {
+  margin: 0;
+
+  @include fonts-default($text-color-black-d, 14px, 1.2, 300);
+}
+
+@media screen and (min-width: $screen-tablet) {
+  .lectors-block__description {
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .lectors-block__description {
+    line-height: 24px;
+  }
+}

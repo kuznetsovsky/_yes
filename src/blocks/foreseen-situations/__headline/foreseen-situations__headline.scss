@@ -1,0 +1,9 @@
+.foreseen-situations__headline {
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width: $screen-desktop) {
+  .foreseen-situations__headline {
+    margin-bottom: 60px;
+  }
+}
